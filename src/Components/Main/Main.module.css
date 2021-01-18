@@ -1,0 +1,71 @@
+.container {
+    background-color: #29395b;
+    display: flex;
+    min-height: 50vh;
+    min-width: 10vw;
+    padding: 16px;
+    justify-content: space-between;
+    /* margin: 0 22%; */
+    
+}
+
+.line {
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+
+.left {
+    width: 29%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin-left: 24%;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.leftItems {
+    font-size: 36px;
+}
+
+.left p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.right {
+    /* width: 50%; */
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.sovaImage {
+    max-width: 55%;
+}
+
+.learnButton {
+    font-size: 19px;
+    border-radius: 9px;
+    padding: 8px 16px;
+    font-weight: 500;
+    border: none;
+}
+
+.divider {
+    width: 100%;
+    height: 5px;
+    color: #ffffff;
+    width: 100%;
+    height: 3px;
+    background-color: #ffffff;
+    border-radius: 2px;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+      background-color: olive;
+      font-size: 7px;
+    }
+  }
